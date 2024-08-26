@@ -25,3 +25,4 @@ def read_root():
 @app.get("/api")
 def read_api():
     return {"message": "This is the API endpoint"}
+
